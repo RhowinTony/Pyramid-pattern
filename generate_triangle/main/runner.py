@@ -10,3 +10,10 @@
 # Here the input is 6.
 
 
+def main() -> None:
+    input_val = input("Please enter the number of rows for the pyramid")
+    pattern_generator = PatternPrinter(input_val)
+    pattern_generator.generate_pattern()
+
+if __name__ == "__main__":
+    main()
