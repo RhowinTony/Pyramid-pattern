@@ -9,9 +9,10 @@
 
 # Here the input is 6.
 
+from generate_triangle.generator import PatternPrinter
 
 def main() -> None:
-    input_val = input("Please enter the number of rows for the pyramid")
+    input_val = input("-Please enter the number of rows for the pyramid ")
     pattern_generator = PatternPrinter(input_val)
     pattern_generator.generate_pattern()
 
