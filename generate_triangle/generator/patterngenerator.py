@@ -47,3 +47,6 @@ class PatternPrinter:
             finally:
                 final_output_list.append(sum_value)
             return final_output_list
+    
+    def print_output(self):
+        print(self.final_pattern_list)
