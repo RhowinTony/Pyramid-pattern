@@ -48,8 +48,8 @@ class PatternPrinter:
     #             final_output_list.append(sum_value)
     #     return final_output_list
 
-    def print_output(self):
-        for item in self.final_pattern_list:
-            for sub_item in item:
-                print(sub_item, end="  ")
-            print()
+    # def print_output(self):
+    #     for item in self.final_pattern_list:
+    #         for sub_item in item:
+    #             print(sub_item, end="  ")
+    #         print()
