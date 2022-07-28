@@ -36,17 +36,17 @@ class PatternPrinter:
     def generate_pattern_for_2_row(self):
         return [[1], [1,1]]
     
-    def generate_pattern_for_next_row(self, previous_row_list:list) -> list:
-        final_output_list = []
-        final_output_list.append(1)
-        for i, item in enumerate(previous_row_list):
-            try:
-                sum_value = item + previous_row_list[i+1]
-            except IndexError:
-                sum_value = item + 0
-            finally:
-                final_output_list.append(sum_value)
-        return final_output_list
+    # def generate_pattern_for_next_row(self, previous_row_list:list) -> list:
+    #     final_output_list = []
+    #     final_output_list.append(1)
+    #     for i, item in enumerate(previous_row_list):
+    #         try:
+    #             sum_value = item + previous_row_list[i+1]
+    #         except IndexError:
+    #             sum_value = item + 0
+    #         finally:
+    #             final_output_list.append(sum_value)
+    #     return final_output_list
 
     def print_output(self):
         for item in self.final_pattern_list:
