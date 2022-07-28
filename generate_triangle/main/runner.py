@@ -9,12 +9,12 @@
 
 # Here the input is 6.
 
-# from generate_triangle.generator import PatternPrinter
+from generate_triangle.generator import PatternPrinter
 
-# def main() -> None:
-#     input_val = input("-Please enter the number of rows for the pyramid ")
-#     pattern_generator = PatternPrinter(input_val)
-#     pattern_generator.generate_pattern()
+def main() -> None:
+    input_val = input("-Please enter the number of rows for the pyramid ")
+    pattern_generator = PatternPrinter(input_val)
+    pattern_generator.generate_pattern()
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
